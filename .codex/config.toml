@@ -1,0 +1,4 @@
+# Shared project defaults. Model selection remains in the user's config.
+# Codex loads this file after the user trusts the project.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"

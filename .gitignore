@@ -103,7 +103,8 @@ $RECYCLE.BIN/
 # ==========================================
 # Codex CLI / AI Agent local data
 # ==========================================
-.codex/
+.codex/*
+!.codex/config.toml
 .claude/
 .aider*
 .cursor/cache/
