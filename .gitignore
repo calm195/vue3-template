@@ -1,0 +1,135 @@
+
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+.pnpm-store/
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+
+# ==========================================
+# Build outputs
+# ==========================================
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+.vite/
+.vite-temp/
+
+# ==========================================
+# Environment variables
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ==========================================
+# Logs
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Testing
+# ==========================================
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+__screenshots__/
+*.snap.new
+
+# ==========================================
+# Temporary files
+# ==========================================
+tmp/
+temp/
+.cache/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating systems
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+.idea/
+*.iml
+*.sublime-workspace
+
+# VS Code local settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==========================================
+# ESLint / Prettier
+# ==========================================
+.eslintcache
+.prettiercache
+
+# ==========================================
+# Local development
+# ==========================================
+*.local
+*.local.*
+!.env.example
+!.env.*.example
+
+# ==========================================
+# Codex CLI / AI Agent local data
+# ==========================================
+.codex/
+.claude/
+.aider*
+.cursor/cache/
+.cursor/logs/
+
+# ==========================================
+# Git Worktree local directories
+# ==========================================
+.worktrees/
+worktrees/
+
+# ==========================================
+# Local databases
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# Private credentials
+# ==========================================
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
