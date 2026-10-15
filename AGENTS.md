@@ -4,8 +4,9 @@
 
 - Vue 3 Composition API with `<script setup lang="ts">`, Vite, strict TypeScript, Vue Router, Pinia.
 - Use pnpm 10 only. Install with `pnpm install`; preserve `pnpm-lock.yaml`.
-- Develop: `pnpm dev`. Before completing changes: `pnpm check` and `pnpm build`.
-- `pnpm lint:fix` and `pnpm format` apply automated fixes.
+- Develop: `pnpm dev`.
+- After every set of modifications, run `pnpm format`, then `pnpm check` (formatting, lint, type checking, and tests), and `pnpm build` before completing the task. If fixes require further modifications, repeat formatting and checks on the final changes.
+- Use `pnpm lint:fix` when automated lint fixes are needed. Resolve failures without weakening checks; report any checks that cannot run and why.
 
 ## Architecture
 
